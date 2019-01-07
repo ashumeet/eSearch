@@ -14,19 +14,12 @@ Using Java, write a microservice that invokes AWS elastic search and make it ava
 # Steps Involved 
 
 * Created a elastic search domain
-
 * Download the sample files in the esSetup folder
-
 * Run createSetupAndDataFile.java to create json insert files for the mapping and data
-
 * Run setup.sh and data.sh to push data in AWS ElasticSearch
-
 * Create AWS Lamda function and write the Lamda function with the help of eclipse plugin
-    
 * Create jar through maven and upload your jar into Lamda console
-
 * Add API-Gateway trigger to your newly created Lamda function
-
 * Add url parameters to API-Gateway to be passed to Lamda function
 
 # Demo Application can be tested via API endpoint. Below are few examples
