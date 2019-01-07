@@ -32,5 +32,7 @@ Using Java, write a microservice that invokes AWS elastic search and make it ava
 # Demo Application can be tested via API endpoint. Below are few examples
 
 https://2sgvkxrc6j.execute-api.us-west-1.amazonaws.com/default/esearch?PLAN_NAME=MORAVIAN%20MAN
+
 https://2sgvkxrc6j.execute-api.us-west-1.amazonaws.com/default/esearch?PLAN_NAME=MORAVIAN%20MAN&SPONSOR_NAME=PLAYPOW
+
 https://2sgvkxrc6j.execute-api.us-west-1.amazonaws.com/default/esearch?PLAN_NAME=MORAVIAN%20MANORS%20INC%20HEALTH%20CARE%20PLA&SPONSOR_NAME=PLAYPOW&SPONSOR_STATE=MONET
